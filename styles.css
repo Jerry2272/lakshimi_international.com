@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.sectionAll{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* navbar  */
+.navbar  ul li .nav-link{
+    font-family: Mulish;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: rgba(51, 51, 51, 1)!important;
+
+}
+/* navbar ending */
+
+/* hero section  */
+.hero{
+  background: url('image/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 640px; */
+  width: 100%;
+  height: 640px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.hero h1{
+font-family: Oswald;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+font-weight: 400;
+color: #fff;
+
+}
+.hero h1 span {
+    color: rgba(219, 202, 0, 1);
+
+}
+        .hero p{
+            font-family: Mulish;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: rgba(255, 255, 255, 1);
+           
+            margin: auto auto;
+ }
+ form button {
+   font-family: Bitter;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   border: none;
+    background: rgba(225, 110, 78, 1);
+   padding:  12px 10px 12px 10px;
+   width: 182px;
+   height: 48px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto auto;
+ }
+/* hero section ending */
+
+
+/* about section  */
+.about h2{
+    font-family: Bitter;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 64px;
+    color: rgba(225, 110, 78, 1);
+        }
+    .about p{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+        }
+/* about section ending */
+
+
+/* product  */
+.selected-product h1{
+    font-family: Bitter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(225, 110, 78, 1);    
+  }
+  .selected-product p{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+  }
+.card h5{
+    font-family: Bitter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(32, 32, 32, 1);
+    
+}
+.card p{
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+}
+/* product ending */
+
+
+/* faq section  */
+.faq h1{
+    font-family: Bitter;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: rgba(225, 110, 78, 1);
+    }
+    .faq p{
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        color: rgba(32, 32, 32, 1);
+            }
+
+    .faq ul li h5{
+        font-family: Bitter;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+color: rgba(225, 110, 78, 1);
+    }
+    .faq ul li h6{
+        font-family: Mulish;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+    }
+    .faq{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+/* faq section ending */
+
+/* indulge section  */
+.indulge{
+    width: 100%;
+    height: 630px;
+    background: url('image/indulge.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.indulge h2{
+    color: #fff;
+    font-family: Oswald;
+font-size: 48px;
+font-weight: 500;
+line-height: 64px;
+text-align: left;
+
+
+}
+.indulge h2 span{
+    color: rgba(219, 202, 0, 1);
+}
+.indulge p{
+    font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #fff;
+}
+/* indulge section ending */
+
+@media (min-width: 992px) {
+    /* targetting all margin  */
+        .sectionAll{
+            margin: 130px;
+        }
+        .faq{
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+    /* hero section  */
+    .hero{
+        height: 100vh;
+    }
+    .hero h1{
+        font-size: 72px;
+        line-height: 88px;
+        }
+         form button {
+            padding:  16px 10px 16px 10px;
+            width: 256px;
+            height: 48px;
+        }
+        .hero p{
+
+            width: 600px;
+        }
+    /* hero section ending */
+
+    /* about section  */
+    .about h2{
+font-weight: 700;
+font-size: 56px;
+line-height: 72px;
+    }
+    /* about section ending */
+
+  /* selected product  */
+  .selected-product h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;   
+  }
+  .card h5{
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.card p{
+    font-size: 16px;
+    line-height: 32px;
+}
+  /* selected product ending */
+
+
+  /* faq section  */
+  .faq h1{
+    font-size: 40px;
+    line-height: 56px;
+    }
+
+  /* faq section ending */
+}
